@@ -58,3 +58,25 @@ footer {
   display: flex;
   margin-top: 50px;
 }
+/***Products*/
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 50px;
+  justify-content: center;
+  list-style-type: none;
+}
+.products li {
+  flex: 0 1 30rem;
+  border-top: 0.2rem #e0e0e0 solid;
+  margin: 1rem;
+  margin-bottom: 0;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
